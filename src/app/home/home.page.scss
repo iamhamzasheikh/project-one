@@ -1,0 +1,55 @@
+.main-div{
+width: 100%;
+height: 100%;
+}
+
+.header-yellow{
+  width: 170px;
+  height: 170px;
+  border: 1px solid orange;
+  position: absolute;
+  top: 8%;
+  left: 85%;
+  transform: translate(-50%, -50%);
+  border-bottom-left-radius: 100%;
+  background-color: orange;
+}
+.footer-orange{
+  width: 300px;
+  height: 300px;
+  border: 1px solid orange;
+  top: 90%;
+  left: 25%;
+  transform: translate(-50% , -50%);
+  position: absolute;
+  border-top-right-radius: 100%;
+  background-color: orange;
+}
+.delete-ionic{
+  top: 40%;
+  left: 55%;
+  transform: translate(-50% , -50%);
+  position: absolute;
+  width: 150px;
+  height: 150px;
+}
+.deep-btn {
+  width: 100px;
+  height: 100px;
+}
+.deep{
+  font-size: 50px;
+  font-weight: bolder;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+  position: absolute;
+}
+.cafe{
+  font-size: 22px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+  position: absolute;
+  letter-spacing: 10px;
+}
