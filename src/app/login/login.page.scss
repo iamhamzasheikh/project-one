@@ -1,0 +1,40 @@
+ion-content {
+    --background: orange;
+}
+.sign-heading{
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 30px;
+    margin-left: 12px;
+}
+.lorem {
+    font-size: 16px;
+  text-align: center;
+    
+}
+.btn-info{
+    width: 100%; 
+    height: 100vh; 
+    border: 2px solid white !important;
+    margin-top: 70px;
+     border-top-left-radius: 50px;
+     border-top-right-radius: 50px;
+}
+.inputs-info {
+    border: 2px solid red;
+    width: 85%;
+    height: 400px;
+    margin: 20px auto;
+}
+.inputs-info > ion-item > ion-input{
+    width: 100%;
+    background-color: grey;
+    margin: 12px 0;
+    border-radius: 50px;
+    padding: 10px 17px !important;
+    color: black;
+}
+.for-password{
+    float: right;
+    margin-right: 25px;
+}
