@@ -1,0 +1,87 @@
+.delete-deep-cafe {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .delete-deep-cafe > ion-list {
+    text-align: center;
+  }
+  
+  .delete-deep-cafe > ion-list > h3 {
+    text-align: center;
+    font-size: 60px;
+    margin-top: -7px;
+  }
+  
+  .delete-deep-cafe > ion-list > p {
+    letter-spacing: 5px;
+    font-size: 18px;
+    margin-top: -1px;
+  }
+  
+  .deep-btn {
+    width: 120px;
+    height: 120px;
+  }
+  
+  /* bottom-section */
+  .bottom-part {
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    background-color: orange;
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+  }
+  
+  .bottom-part > h1 {
+    font-weight: bolder;
+    margin: 30px;
+    font-size: 42px;
+  }
+  
+  .bottom-part > ion-list {
+    width: 95%;
+    margin: 0 auto;
+    margin-top: -25px;
+    background-color: orange;
+    font-size: 16px;
+    font-weight: 550;
+  }
+  
+  /* welcome buttons section */
+  .welcome-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    top: 72%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: transparent;
+  }
+  
+  .welcome-btn > ion-button {
+    flex: 1;
+    margin: 0 10px;
+    padding: 12px;
+  }
+  
+  .left {
+    background-color: #000;
+    color: #fff;
+    border-radius: 50px;
+  }
+  
+  .right {
+    background-color: #fff;
+    color: #000;
+    border-radius: 50px;
+  }
+  
+  

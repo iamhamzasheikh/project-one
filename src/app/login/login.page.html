@@ -24,21 +24,50 @@
 
       <ion-list class="inputs-info">
 
-        <ion-item class="input"s>
-          <ion-input type="text" placeholder="User Name"></ion-input>
-        </ion-item>
+        <ion-list>
+          <ion-item class="input">
+            <ion-input type="text" placeholder="User Name"></ion-input>
+          </ion-item>
+        </ion-list>
 
-        <ion-item class="input">
-          <ion-input type="password" placeholder="Password">
-            <ion-input-password-toggle slot="end"></ion-input-password-toggle>
-          </ion-input>
-        </ion-item>
+        <ion-list>
+          <ion-item class="input">
+            <ion-input type="password" placeholder="Password">
+              <ion-input-password-toggle slot="end"></ion-input-password-toggle>
+            </ion-input>
+          </ion-item>
+        </ion-list>
 
         <p class="for-password">Forget Password?</p>
+      </ion-list>
 
+      <ion-list class="signin-btn">
+        <ion-button expand="block" color="dark">SignIn</ion-button>
+      </ion-list>
+
+      <!-- google-icon -->
+
+      <ion-list class="google-fb">  
+        <ion-list class="google">
+          <ion-list><ion-icon name="logo-google"></ion-icon></ion-list>
+          <ion-list><p>Continue via Google</p></ion-list>
+          <ion-list><ion-icon name="arrow-forward-outline"></ion-icon></ion-list>
+        </ion-list>
+      
+
+      <!-- faceBook-icon -->
+
+      <ion-list class="facebook">
+        <ion-list class="google">
+          <ion-list><ion-icon name="logo-facebook"></ion-icon></ion-list>
+          <ion-list><p>Continue via FaceBook</p></ion-list>
+          <ion-list><ion-icon name="arrow-forward-outline"></ion-icon></ion-list>
+        </ion-list>
 
       </ion-list>
 
+
+    </ion-list>
 
 
     </ion-list>
